@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
-
 }
 
 body {
@@ -29,6 +28,16 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: 2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #00ff08;
 }
 
 /* ESTILO CABEÇALHO */
@@ -116,4 +125,88 @@ section.topo-do-site .flex {
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
-  }
+}
+
+section.especialidades {
+    padding: 40px 4%;
+  
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    width: 200px;
+    right: 200px;
+   
+    
+       
+}
+
+
+.especialidades .especialidades-box i{
+    font-size: 50px;
+    color: #00ff08;
+} 
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.especialidades .especialidades-box h3{
+    text-align: center;
+}
+
+.especialidades .especialidades-box p{
+    text-align: center;
+    align-items: center;
+}
+
+
+section.sobre {
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+ }
+
+ .sobre .txt-sobre h2 span{
+    color: #00ff08;
+    display: block;
+ }
+
+ .sobre .txt-sobre p{
+    text-align: justify;
+ }
+
+ .sobre .txt-sobre .social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 10 10 10 10;
+    transition: 0.2;
+ }
+
+ .sobre .txt-sobre .social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff08;
+}
